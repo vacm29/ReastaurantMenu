@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href="./css/index.css" rel="stylesheet" type="text/css"/>
 		<title>
 			Restaurante Menu
 		</title>
@@ -116,24 +117,27 @@
 			<legend>
 				Leave us a comment
 			</legend>
+			<span>
+				Su informacion no sera compartida con nadie.
+			</span>
 			<div>	
 				<label>
-					First name: <input type="text" id="fname" />
+					First name: <input type="text" id="fname" class='.formElement'/>
 				</label>
 			</div>
 			<div>
 				<label>
-					Last name: <input type="text" id="lname" />
+					Last name: <input type="text" id="lname" class='.formElement'/>
 				</label>
 			</div>
 			<div>
 				<label>
-					Email: <input type="text" id="email" />
+					Email: <input type="email" id="email" class='.formElement' />
 				</label>
 			</div>
 			<div>
 				<label>
-					Phone number: <input type="text" id="Pnumber" />
+					Phone number: <input type="text" id="Pnumber" class='.formElement'/>
 				</label>
 			</div>
 			<div>
@@ -182,8 +186,13 @@
 				</label>
 			</div>
 			<div>
-				<button name="submit">
+				<button name="submit" id='submitB' class='clickable'>
 					Submit
+				</button>
+			</div>
+			<div>
+				<button name="reset" id='resetB' class='clickable'>
+					Reset
 				</button>
 			</div>
 		</fieldset>

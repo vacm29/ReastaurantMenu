@@ -1,0 +1,102 @@
+body{
+	font-family: verdana, sans-serif;
+	font-size: 13px;
+	color: #4F545F;
+	margin: 0;
+	padding: 10px;
+}
+h1{
+	background-color: #55B3C5;
+	margin: 0;
+	padding: 20px;
+	color: white;
+}
+fieldset{
+	margin: 20px;
+	padding: 20px;
+	border: 20px dashed #DDDDDD; 
+}
+legend{
+	font-size:16px;
+	font-weight: 900;
+}
+fieldset > span{
+	color: #6278B0;
+	padding: 20px 40px;
+	display: block; /*block convierte a un bloque a que sea en linea.*/
+	/*background-color: #CCE9F8;*/
+	background: url('./../img/its_something_meme.jpg') no-repeat center left 5px #CCE9F8;
+	background-size: 50px 50px;
+	border: 1px solid #6278B0;
+	margin-bottom: 10px;
+}
+.formElement{
+	padding: 5px 10px;
+	width: 300px;
+}
+select [name=rate]{
+	font-soize: 14px;
+	width: 250px;
+}
+#submitB, #resetB {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: 0;
+	color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 100px;
+	text-align: center;
+}
+#submitB {
+	background-color: #56E56F;
+}
+#submitB:hover {
+	background-color: black;
+}
+#resetB {
+	background-color: #d9534f;
+}
+.clickable:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+table{
+	border: 1px solid #eee;
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+th, td{
+	color: #999;
+	border: 1px solid #eee;
+	padding: 15px 35px;
+}
+th{
+	color: white;
+	background-color: #55b3c5;
+	text-transform: uppercase;
+}
+td{
+	background-color:#f4f4f4;
+}
+td:hover{
+	color:#555;
+}
+ul{
+	background-color: #ccc;
+	list-style:none;
+	overflow: hidden;
+}
+li{
+	float:left;
+	padding: 20px;
+}
+li>a{
+	text-decoration: none;
+	color: #4f545f;
+}
+li:hover{
+	cursor: pointer;
+	color: white;
+	background-color: #999;
+}
